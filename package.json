@@ -1,0 +1,9 @@
+{
+  "name": "prefw-faye",
+  "description": "Faye server for prefw system.",
+  "private": true,
+  "dependencies": {
+    "faye": "^1.1.2",
+    "permessage-deflate": "^0.1.3"
+  }
+}
