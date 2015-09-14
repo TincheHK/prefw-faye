@@ -43,7 +43,7 @@ else {
     , bayeux = new faye.NodeAdapter({ mount: '/', timeout: 60 })
 
   bayeux.attach(server);
-  server.listen(81, function() {
+  server.listen(8080, function() {
     var address = server.address();
 
     console.info('Bayeux server listening on %s port %d.', address.address, address.port);
